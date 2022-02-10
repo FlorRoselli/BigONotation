@@ -1,0 +1,13 @@
+¿Cuales de las siguientes sentencias son equivalentes a O(N)? ¿por qué?
+
+1. O(N + P) donde P < n/2
+2. O(2N)
+3. O(N + log N)
+4. O(N + M)
+
+1. O(n + n/2) -> O(n) es equivalente a O(n) ya que tenemos informacion sobre P,
+al saber que es menor, lo podemos simplificar en n
+2. O(2n) es equivalente a O(n), ya que al tener dos veces N, lo podemos simplificar
+3. log N es menor a N, por lo que lo podemos simplificar en O(n)
+4. no es equivalente a O(n) ya que no tenemos informacion sobre M, por lo que no 
+lo podemos simplificar
